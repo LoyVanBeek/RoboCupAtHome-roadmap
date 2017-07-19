@@ -5,7 +5,7 @@ RoboCup@home is a difficult competiton where robots must master a wide array of 
 Even when a robot excels in one skill, it may still fail many tests if the excel skill is not well-integrated or when others skills of the robot are lacking. 
 Sometimes, the best integrator or 3rd party software performs best. 
 
-For the future of RoboCup@home, we should gather which recent advances in AI and roborics are applicable to our competition and see what tasks they might enable. 
+For the future of RoboCup@home, we should gather which recent advances in AI and robotics are applicable to our competition and see what tasks they might enable. 
 
 The tasks in RoboCup@Home should be related to or simplified versions of real use-cases of service robots. 
 Potential users of service robots are:
@@ -13,17 +13,35 @@ Potential users of service robots are:
 - Elderly people
 - Fully able people looking to ease their every day life. 
 
+A major obstacle to home robot adoption is the price vs. value of robots.
+There are currently no robots that can accomplish the same tasks a personal servant might be able to do. Robots in RoboCup@Home are generally not engineered to be very cost efficient. Focussing *price* on this might also be a topic for RoboCup@Home. 
+
+Existing service robots and their tasks
+---------------------------------------
 For some tasks, home robots already exist:
 - Floor vacuum cleaning
 - Floor mopping
+- Window cleaning
+- Lawn mowing
 
-These are not the tasks RoboCup@Home should focus on as they can be solved by much simpler robots. 
-Equiping a humanoid robot with a vacuum cleaning for humans is nonsense, given the existing floor vacuum robots. 
+These are not the tasks RoboCup@Home should focus on, as they can be solved by much simpler devices, which one would not call robots anymore. 
 
-Other housekeeping chores:
+For example:
+- Washing dishes: dirty dishes are cleaned by dishwashing machines. The dishes are to be put in by a human though. 
+- Washing clothes: washing & drying machine. Not a mechanical human using a washboard and soap. 
+- Floor cleaning: Not a mechanical human with a broom or vacuum cleaner, but self-driving vacuum cleaners.
+- Cooking: prepackaged microwave food exists, but is of lower quality. One could also have food delivered or order take-out food. Not many people do this on a daily basis. 
+
+Potential service robot applications
+------------------------------------
+### Housekeeping chores
 - Cleaning bathroom
 - Cleaning furniture, dusting things off
 - Laundry
+
+### Other home-related activities
+- Cooking
+
 what skills are needed to eventually accomplish these tasks?
 
 Challenges
@@ -33,14 +51,20 @@ Challenges
 SPR involves answering questions about the environment. The focus is ASR, NLP and a bit of NLU.
 The environment is currently fixed, all knowledge of the environment (except the crowd) is static. 
 
-An obvious extension of this challenge would be to have the robots gather knowledge about the environment. 
-E.g. give the robots a minute to drive around and gather knowledge before answering questions, 
-OR to ask a question and have the robot go around and figure out the answer, with a follow up question perhaps.
+Possible extensions:
+- Robots gather knowledge about the environment. E.g. give the robots a minute to drive around and gather knowledge before answering questions OR to ask a question and have the robot go around and figure out the answer, with a follow up question perhaps. 
+
+### Help-me-carry
+Help-me-carry involves various aspects of (social) navigation: following a human, collision-free autonomous driving, guiding a human, meanwhile opening a door. 
+
+Possible extensions:
+- carrying a big item together with a human (e.g. operator got new furniture instead of groceries)
 
 ### Storing Groceries
 Groceries are put on a table before the robts can start using them. Objects are put up easy to grasp.
 
-Instead, just pour the groceries on the table directly from the bag or leave the groceries in the shopping crate. 
+Possile extensions:
+- Pour the groceries on the table directly from the bag or leave the groceries in the shopping crate/bag. 
 
 ### (EE)-GPSR
 Do everything as GPSR or do GPSR in a new environment with a limited time for learning that environment. 
@@ -48,6 +72,9 @@ Some tasks can be described in terms of GPSR but some not yet because the amount
 
 E.g. Help-me-carry is a chain of one-off commands. 
 Storing groceries however requires doing a complex action (put object near something of the same/similar class) for a set of objects (all on the table). 
+
+### Restaurant
+In the restaurant challenge, robots act like waiters. In previous years, robots learned tables by following a human who stopped at each table. In 2017, this is replaced by having guests simply wave at the robots
 
 
 Recent advancements
@@ -96,7 +123,7 @@ See https://github.com/RoboCupAtHome/RuleBook/issues/217
  - [ ] Information retrieval: answering general knowledge questions
  - [ ] Conversation initiated by human instead of robot
  - [ ] Robot can be called from a different room
- - [ ] Recognize speaker by voice (accept command s only from owner)
+ - [ ] Recognize speaker by voice (accept commands only from owner)
  - [ ] Differentiate between different speakers
  - [ ] Determine mood from voice
  - [ ] Be able to function in a noisy environment (e.g. a bar, party, etc)
