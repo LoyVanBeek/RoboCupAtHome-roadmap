@@ -28,9 +28,11 @@ These are not the tasks RoboCup@Home should focus on, as they can be solved by m
 
 For example:
 - Washing dishes: dirty dishes are cleaned by dishwashing machines. The dishes are to be put in by a human though. 
-- Washing clothes: washing & drying machine. Not a mechanical human using a washboard and soap. 
+- Washing clothes: washing & drying machine. Not a mechanical human using a washboard and soap. Humans do need to sort clothes and move them in/out of the machine
 - Floor cleaning: Not a mechanical human with a broom or vacuum cleaner, but self-driving vacuum cleaners.
 - Cooking: prepackaged microwave food exists, but is of lower quality. One could also have food delivered or order take-out food. Not many people do this on a daily basis. 
+
+Note that all these devices can do only a single task. RoboCup@Home has so far focussed on more versatile, multifunctional robots. 
 
 Potential service robot applications
 ------------------------------------
@@ -38,9 +40,16 @@ Potential service robot applications
 - Cleaning bathroom
 - Cleaning furniture, dusting things off
 - Laundry
+    + Gathering all clothes in the house
+    + Sorting/separating clothes
+    + Putting clothes in/out washing machine
+    + Ironing
+    + Putting clothes in the closet
 
 ### Other home-related activities
 - Cooking
+    + Selecting a recipe
+    + Chopping food
 
 what skills are needed to eventually accomplish these tasks?
 
