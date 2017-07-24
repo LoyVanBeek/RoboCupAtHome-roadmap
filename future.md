@@ -31,6 +31,7 @@ For example:
 - Washing clothes: washing & drying machine. Not a mechanical human using a washboard and soap. Humans do need to sort clothes and move them in/out of the machine
 - Floor cleaning: Not a mechanical human with a broom or vacuum cleaner, but self-driving vacuum cleaners.
 - Cooking: prepackaged microwave food exists, but is of lower quality. One could also have food delivered or order take-out food. Not many people do this on a daily basis. 
+- Transporting goods: multiple companies are getting into this (Fetch, Amazon, Magazino, ...). Arms not really needed. 
 
 Note that all these devices can do only a single task. RoboCup@Home has so far focussed on more versatile, multifunctional robots. 
 
@@ -116,8 +117,10 @@ e.g:
 
 Skills
 ------
+General
+- [ ] More flexible arena where stuff mores more and more
 
-### ASR/NLP/NLU: 
+### ASR/NLP/NLU:
 See https://github.com/RoboCupAtHome/RuleBook/issues/217
 
  - [x] 'Hear' short, single words E.g. "Yes" or "No"

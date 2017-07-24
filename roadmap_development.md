@@ -11,6 +11,7 @@ The bottom-up approach, like evolution is species, has no goal.
 Top-down approach
 -----------------
 For RoboCup@Home, I think a few goals need to be set in terms of what robots should be able to do. The distance between the stepping stones toward that goals wil be defined by what strides of evolution we can make a community and robotics community in general. 
+From one step, the next step should be actionable and within sight. 
 
 To give concrete example: say a goal is to have robots make a sandwich. To prepare a sandwich in the same way a human does (there might be a single-task device that can do this more efficiently perhaps), a robot must be able to open a butter cup, wield knife, get a plate, get a slice of bread from a loaf, open a door or drawer to get a loaf of bread. 
 Barely any of these skills are currently mastered by RoboCup@Home robots. 
@@ -24,6 +25,7 @@ From the remaining tasks, we determine which have the most dependencies, i.e. wh
 Bottom-up approach
 ------------------
 RoboCup@Home teams are certainly not the only people developing capable robot hardware and software. The RoboCup challenges should keep an eye on other research and see what that might enable for RoboCup@Home.
+External developments may if course bring some stepping stones in much closer range. 
 
 For example: our robots usualy grasp something from the same, safe pose but this might fail. [GPD](https://github.com/atenpas/gpd) is a neural net that performs Grasp Point Determination. This enables more advanced manipulation. 
 More advanced manipulation, however, is not a goal in itself. 

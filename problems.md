@@ -54,6 +54,8 @@ But the competition is only a few days, which are already so busy , there's no t
 To make GPSR for fair, everyone should get the same tasks (this is boring for everyone). 
 I also don't want to test just 3 commands, I want to **test dozens of commands**!
 
+In comparison: the Amazon Robotics Challenge only tests 2 very similar tasks. Each of those is just one part of our challenges. 
+
 ### Possible fixes
 - Less challenges
 - Less repetition
@@ -61,12 +63,12 @@ I also don't want to test just 3 commands, I want to **test dozens of commands**
 
 Robots are still inflexible
 ---------------------------
-Each challenge is still essentially a big state machine (at least in the teams I speak with). GPSRs (at leat at TechUnited) is a set of state machines configured via a voice command. 
+Each challenge is still essentially a big state machine (at least in the teams I speak with). GPSRs (at least at TechUnited) is a set of state machines configured via a voice command. 
 If something goes wrong, there are little problem solving skills. 
 These problem solving skills (can be just replanning), are non-existent as far as I know. 
 
 A way to test this is to simple mess with the robots and block their plans. 
-This is already a category in EE-GPSR. Perhaps we should always give at leat one command in this category. 
+This is already a category in EE-GPSR. Perhaps we should always give at least one command in this category. 
 
 Performance seems to be going down last couple of years?
 --------------------------------------------------------
